@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush/Bush.prefab.meta
 guid: 3f8eda438d8aeab4d9223c5b53f5ef62
 PrefabImporter:
+========
+guid: c007385939d9b3d4295ef6ad9767ab8c
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Assets/Materials/Trees.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab.meta
 guid: 43999c511a596754fb989ff074c5955d
 PrefabImporter:
+========
+guid: d67eba4860292ce42bffef0ae6ca1dd2
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Assets/Materials/forestFloor.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

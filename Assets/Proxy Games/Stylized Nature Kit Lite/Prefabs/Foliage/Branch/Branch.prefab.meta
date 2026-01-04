@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab.meta
 guid: 362fbd4477668ab4a956faef2e191ccf
 PrefabImporter:
+========
+guid: bc00e0839a74fd042b7da3d51a1db5c4
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Assets/Materials/Teleporters.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

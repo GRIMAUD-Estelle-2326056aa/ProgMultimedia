@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Materials/Mushroom_mat.mat.meta
 guid: c6db926b0f4125d46badb97a666508ef
+========
+guid: 0809d7950e856324fbfef68b7ae5e704
+>>>>>>>> Stashed changes:Assets/Materials/Trees/Tr_01_Stem_autumn_001_mat.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
