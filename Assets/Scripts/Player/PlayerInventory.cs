@@ -9,27 +9,29 @@ public class PlayerInventory : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public List<GameObject> objects = new List<GameObject>();
 
-    public void AddObject(GameObject obj)
-    {
-        objects.Add(obj);
-        Debug.Log("Objet ajouté au joueur : " + obj.name);
-    }
-
     void Start()
     {
         UpdateScoreUI();
     }
-
-    public void AddMushrooms(int amount)
+    // Récupération des objets
+    public void AddObject(GameObject obj)
     {
-        mushrooms += amount;
-        Debug.Log($"Mushrooms: {mushrooms}");
+        objects.Add(obj);
+        Debug.Log($"Ajout de l'objet {obj.name}");
+    }
+    // Récupération de champignons
+    public void AddMushrooms(GameObject mushroom)
+    {
+        objects.Add(mushroom);
+        mushrooms += 1;
+        Debug.Log($"mushrooms: {mushrooms}");
         UpdateScoreUI();
     }
-
-    public void AddKeys(int amount)
+    // Récupération de clé
+    public void AddKeys(GameObject key)
     {
-        keys += amount;
+        objects.Add(key);
+        keys += 1;
         Debug.Log($"Keys: {keys}");
     }
 
