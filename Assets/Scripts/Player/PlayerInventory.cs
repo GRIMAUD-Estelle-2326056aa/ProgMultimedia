@@ -36,8 +36,12 @@ public class PlayerInventory : MonoBehaviour
     }
 
     void UpdateScoreUI()
+{
+    if (scoreText != null)
     {
-        if (scoreText != null)
-            scoreText.text = "Score : " + mushrooms;
+            scoreText.text = "x " + mushrooms;
+
     }
+}
+
 }
