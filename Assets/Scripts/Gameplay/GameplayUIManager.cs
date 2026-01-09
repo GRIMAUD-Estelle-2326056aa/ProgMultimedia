@@ -33,7 +33,11 @@ public class GameplayUIManager : MonoBehaviour
     public void ShowVictory()
     {
         Time.timeScale = 0f;
+            Debug.Log("active" + victoryPanel);
+
         victoryPanel.SetActive(true);
+        Debug.Log("active" + victoryPanel.name);
+
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -45,7 +49,7 @@ public class GameplayUIManager : MonoBehaviour
 
         Time.timeScale = 0f;
         gameOverPanel.SetActive(true);
-                Debug.Log("active" + gameOverPanel.name);
+        Debug.Log("active" + gameOverPanel.name);
 
 
         Cursor.lockState = CursorLockMode.None;

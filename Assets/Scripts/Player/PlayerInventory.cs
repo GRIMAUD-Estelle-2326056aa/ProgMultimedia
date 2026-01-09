@@ -12,8 +12,6 @@ public class PlayerInventory : MonoBehaviour
     public AnimatableTrophy trophy;
     public TextMeshProUGUI scoreText;
     public List<GameObject> objects = new List<GameObject>();
-    public 
-
     void Start()
     {
         UpdateScoreUI();

@@ -9,19 +9,19 @@ public class InteractableTree : Interactable
     {
         if (playerInventory.HasKey())
         {
-             if (objects.Count == 0)
-        {
-            Debug.Log("L'arbre est vide");
-            return;
-        }
+            if (objects.Count == 0)
+            {
+                Debug.Log("L'arbre est vide");
+                return;
+            }
 
-        foreach (GameObject obj in objects)
-        {
-            playerInventory.AddObject(obj);
-        }
+            foreach (GameObject obj in objects)
+            {
+                playerInventory.AddObject(obj);
+            }
 
-        objects.Clear();
-        Debug.Log("Objets transférés de l'arbre au joueur");   
+            objects.Clear();
+            Debug.Log("Objets transférés de l'arbre au joueur");   
         }
         else
         {
