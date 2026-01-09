@@ -50,15 +50,15 @@ MonoBehaviour:
   - m_Index: 0
     m_Metrics:
       m_Width: 480
-      m_Height: 480
+      m_Height: 490.25
       m_HorizontalBearingX: -240
       m_HorizontalBearingY: 240
       m_HorizontalAdvance: 480
     m_GlyphRect:
       m_X: 0
       m_Y: 0
-      m_Width: 480
-      m_Height: 480
+      m_Width: 418
+      m_Height: 463
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0

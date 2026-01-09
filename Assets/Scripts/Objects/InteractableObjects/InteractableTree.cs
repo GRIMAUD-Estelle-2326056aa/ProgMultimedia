@@ -7,7 +7,9 @@ public class InteractableTree : Interactable
 
     public override void Interact(PlayerInventory playerInventory)
     {
-        if (objects.Count == 0)
+        if (playerInventory.HasKey())
+        {
+             if (objects.Count == 0)
         {
             Debug.Log("L'arbre est vide");
             return;
@@ -19,6 +21,13 @@ public class InteractableTree : Interactable
         }
 
         objects.Clear();
-        Debug.Log("Objets transférés de l'arbre au joueur");
+        Debug.Log("Objets transférés de l'arbre au joueur");   
+        }
+        else
+        {
+            Debug.Log("Vous n'avez pas la clé");
+
+        }
+        
     }
 }
